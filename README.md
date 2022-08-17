@@ -30,9 +30,6 @@ The main and develop branches are considered to be the main branches, with an in
 
 When a Git project is compiled it may generate binary files, lock files, temporary files and metadata files. These are intermediate files that are not part of the source code. For example, IDE config files or intermediate files like “.class”,”.exe”, “.bin” etc. that are generated during compilation should be ignored by the version control system as they will be different for each developer machine and will unnecessarily increase the size of the repository.
 
-The .gitignore is a text file where each line contains a pattern for files or directories to ignore. It is usually placed at the root of the project folder. Alternatively, you can put it in any folder in the repository and a project can have multiple .gitignore files.
-
-This file lists files that are intentionally untracked and should be ignored by Git. It is important to note that changes to files that were staged before being added to the .gitignore file will continue to be tracked by Git. In other words, .gitignore will only ignore files in the working directory.
 
 ## storage of credentials and sensitive information
 
