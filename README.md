@@ -3,12 +3,16 @@
 ## Repositories
 
 A new repository will be created for each project below...
-Project 1 2 3 4 5
+Project 1 Agile and Scrum
+Project 2 API development
+Project 3 Standards and Patterns
+Project 4 Testing and RPA
+Project 5 Power BI
 
 ## Diagram
 
 <div style="display: flex; justify-content: center;">
-    <img src alt="" style="width: 500px ;height:500px">
+    <img src="https://mfdot.com/AboutMe/Diagram.drawio.svg" alt="" style="width: 500px ;height:300px">
 </div>
 
 ## Branching strategies
