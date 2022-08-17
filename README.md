@@ -25,3 +25,6 @@ When a Git project is compiled it may generate binary files, lock files, tempora
 The .gitignore is a text file where each line contains a pattern for files or directories to ignore. It is usually placed at the root of the project folder. Alternatively, you can put it in any folder in the repository and a project can have multiple .gitignore files.
 
 This file lists files that are intentionally untracked and should be ignored by Git. It is important to note that changes to files that were staged before being added to the .gitignore file will continue to be tracked by Git. In other words, .gitignore will only ignore files in the working directory.
+
+## storage of credentials and sensitive information
+
