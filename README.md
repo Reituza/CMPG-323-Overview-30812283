@@ -32,4 +32,12 @@ When a Git project is compiled it may generate binary files, lock files, tempora
 
 
 ## storage of credentials and sensitive information
+It is important to store sensetive information because extensive code re-use increases the risk of distributing vulnerabilities from one dependency or repository to another.
 
+To save credentials you can clone Git repository by setting a username and password on the command line:
+$ git clone https://<USERNAME>:<PASSWORD>@github.com/path/to/repo.git
+
+Save Username and Password in Git Credentials Storage
+Run the following command to enable credentials storage in your Git repository:
+
+$ git config credential.helper store
